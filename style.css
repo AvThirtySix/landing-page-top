@@ -1,0 +1,138 @@
+body{
+    border: solid black 2px;
+    margin: 4px;
+    
+}
+
+/*header section*/
+
+.header{
+    border: solid black 2px;
+    margin: 4px;
+    
+}
+
+.header-logo{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.logo-links > ul{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.logo-links{
+    border: solid black 2px;
+    margin: 4px;
+    display: flex;
+}
+
+.header-text{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.header-image{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.header-text > button{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.text-image{
+    border: solid black 2px;
+    margin: 4px;
+    display: flex;
+}
+
+/*info section*/
+
+.info{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.info > h1{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.all-cards{
+    border: solid black 2px;
+    margin: 4px;
+    display: flex;
+}
+
+.card{
+    border: solid black 2px;
+    margin: 4px;
+    
+}
+
+.card-image{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.card > p{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+/*testemonial section*/
+
+.testemonial{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.testemonial > p{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.testemonial > h2{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+/*call to action section*/
+
+.cta{
+    border: solid black 2px;
+    margin: 4px;
+    display: flex;
+}
+
+.cta-text{
+    border: solid black 2px;
+    margin: 4px;
+    
+}
+
+.cta-text > h1{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.cta-text > p{
+    border: solid black 2px;
+    margin: 4px;
+}
+
+.cta > button{
+    border: solid black 2px;
+    margin: 4px;
+  
+}
+
+/*footer section*/
+
+.footer{
+    border: solid black 2px;
+    margin: 4px;
+}
