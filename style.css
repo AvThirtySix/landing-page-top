@@ -1,138 +1,208 @@
 body{
-    border: solid black 2px;
-    margin: 4px;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 /*header section*/
 
+.header-box{
+    background-color: #1F2937;
+    height: 500px;
+}
+
 .header{
-    border: solid black 2px;
-    margin: 4px;
-    
+    background-color: #1F2937;
+    justify-content: center;
+    width: 850px;
+    margin: auto;
 }
 
 .header-logo{
-    border: solid black 2px;
-    margin: 4px;
+    margin-top: 16px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+    display: flex;
 }
 
 .logo-links > ul{
-    border: solid black 2px;
-    margin: 4px;
+    color: #E5E7EB;
+    list-style-type: none;
+}
+
+.mid-link{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.logo-links > ul > li{
+    display: inline-block;
 }
 
 .logo-links{
-    border: solid black 2px;
-    margin: 4px;
     display: flex;
+    justify-content: space-between;
 }
 
+
 .header-text{
-    border: solid black 2px;
-    margin: 4px;
+    width: 400px;
+}
+
+.header-text > h1{
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-text > p{
+    color: #E5E7EB;
 }
 
 .header-image{
-    border: solid black 2px;
-    margin: 4px;
+    background-color: #6C747C;
+    color:#E5E7EB;
+    align-content: center;
+    text-align: center;
+    width: 400px;
+    height: 200px;
 }
 
 .header-text > button{
-    border: solid black 2px;
+    border: none;
+    border-radius: 8px;
     margin: 4px;
+    background-color: #3883F6;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 4px 16px 4px 16px;
+    margin: 0;
 }
 
 .text-image{
-    border: solid black 2px;
-    margin: 4px;
+    
+    margin-top: 80px;
     display: flex;
+    justify-content: space-between;
 }
 
 /*info section*/
 
 .info{
-    border: solid black 2px;
-    margin: 4px;
+   
+    background-color: #F9FAF8;
 }
 
 .info > h1{
-    border: solid black 2px;
-    margin: 4px;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    background-color: #F9FAF8;
+    margin: 32px auto 16px;
 }
 
 .all-cards{
-    border: solid black 2px;
-    margin: 4px;
     display: flex;
+    background-color: #F9FAF8;
+    justify-content: center;
+    margin-bottom: 48px;
 }
 
 .card{
-    border: solid black 2px;
-    margin: 4px;
-    
+    margin: 16px;
+    width: 160px;
+    text-align: center;
+    background-color: #F9FAF8;
 }
 
 .card-image{
-    border: solid black 2px;
-    margin: 4px;
+    border: solid #3883F6 4px;
+    border-radius: 16px;
+    height: 144px;
+    background-color: #F9FAF8;
 }
 
 .card > p{
-    border: solid black 2px;
-    margin: 4px;
+    color: #6C747C;
+    background-color: #F9FAF8;
 }
 
 /*testemonial section*/
 
+.testemonial-box{
+    height: 400px;
+    background-color: #E5E7EB;
+    align-content: center;
+}
+
 .testemonial{
-    border: solid black 2px;
-    margin: 4px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    width: 800px;
+    margin: auto;
 }
 
 .testemonial > p{
-    border: solid black 2px;
-    margin: 4px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
 }
 
 .testemonial > h2{
-    border: solid black 2px;
-    margin: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
 }
 
 /*call to action section*/
 
-.cta{
-    border: solid black 2px;
-    margin: 4px;
-    display: flex;
+.cta-box{
+    background-color: #F9FAF8;
+    height: 300px;
+    align-content: center;
 }
 
-.cta-text{
-    border: solid black 2px;
-    margin: 4px;
-    
+.cta{
+    display: flex;
+    background-color: #3883F6;
+    color: #F9FAF8;
+    border-radius: 16px;
+    padding: 48px;
+    width: 900px;
+    justify-content: space-around;
+    margin: auto;
 }
 
 .cta-text > h1{
-    border: solid black 2px;
-    margin: 4px;
+  margin: 0;
+    font-size: 24px;
 }
 
 .cta-text > p{
-    border: solid black 2px;
-    margin: 4px;
+    margin: 0;
 }
 
 .cta > button{
-    border: solid black 2px;
+    border: solid #F9FAF8 2px;
     margin: 4px;
-  
+    background-color: #3883F6;
+    color: #F9FAF8;
+    align-self: center;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 4px 16px 4px 16px;
+    border-radius: 8px;
 }
 
 /*footer section*/
 
 .footer{
-    border: solid black 2px;
-    margin: 4px;
+    
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 32px 500px;
+    text-align: center; 
 }
